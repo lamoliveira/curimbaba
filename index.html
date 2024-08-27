@@ -1,0 +1,1143 @@
+<html lang="pt_BR" class="_1366">
+
+<head>
+    <meta charset="utf-8">
+    <title>Mercados - Grupo Curimbaba</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="">
+    <meta name="Keywords" content="">
+    <meta name="robots" content="index, follow">
+    <meta name="GOOGLEBOT" content="index, follow, all">
+    <meta name="author" content="Grupo Curimbaba">
+    <meta name="webmaster" content="Grupo Curimbaba">
+    <meta name="doc-class" content="Completed">
+    <meta name="doc-rights" content="Public">
+
+    <base href="https://www.grupocurimbaba.com.br/">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" type="text/css"
+        media="all">
+    <link rel="stylesheet" href="css/estilos.css?66ccd416d48aa" type="text/css" media="all">
+    <link rel="stylesheet" href="css/mercados.css?66ccd416d48ab" type="text/css" media="all">
+    <link rel="shortcut icon" type="image/png" href="img/faviconPNG.png?66ccd416d48ac">
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <script type="text/javascript" async=""
+        src="https://www.googletagmanager.com/gtag/js?id=G-1DM5W8MGJV&amp;l=dataLayer&amp;cx=c"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/config.js?66ccd416d48ad"></script>
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Grupo Curimbaba">
+    <meta property="og:description" content="">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:url" content="https://www.grupocurimbaba.com.br/">
+    <meta property="og:image" content="https://www.grupocurimbaba.com.br/img/">
+    <meta property="og:image:type" content="image/jpg">
+    <meta property="og:site_name" content="Grupo Curimbaba">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-131645579-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-131645579-1');
+    </script>
+
+    <script>
+        $(window).load(function () {
+            $('.mercados .item ul.empresas li.itensTexto').each(function () {
+                var tamanho = $(this).height();
+                console.log(tamanho);
+                $(this).parents('ul.empresas').find('li.imagem, li.link').css({ minHeight: tamanho + 'px' });
+            });
+
+        }) 
+    </script>
+
+
+
+
+
+<script type="text/javascript" src="https://public.tableau.com/javascripts/api/tableau-2.9.1.min.js"></script>
+
+<script type="text/javascript">
+
+    window.addEventListener("load", mediaSizer);
+    //window.addEventListener("resize", mediaSizer);
+    // Listeners that will react when the page first loads or is resized.
+    // If any of these events take place the mediaSizer() function executes.
+
+    var vizList = [
+
+        "https://public.tableau.com/views/resultadocurimbaba/AcompanhamentodeResultado?:language=pt-BR&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/HUMANRESOURCES-HRExpensesDashboardBrasilcurimbaba/Cockpit?:language=pt-BR&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/shared/9DP8W9RJS?:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/resultadomarcasmobiauto/AcompanhamentodeResultado?:language=pt-BR&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/2-Templatespolipecas/Template?:language=pt-BR&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/3-Exemplopolipecas/DashExemplo?:language=pt-BR&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/Howhastheworldchangedsince1962/WorldIndicators?:language=en-US&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/ReclamaesCurimbaba/Reclamaes?:language=pt-BR&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/Anlisedereparoscurimbaba/AnlisedeDefeitos?:language=pt-BR&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/FacebookAdsDashboard_15566377846980/ExecutiveSummary?:language=en-US&:toolbar=n&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/RepVendasBenchmarkcurimbaba/RepVendasBenchmark?:language=pt-BR&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+
+        "https://public.tableau.com/views/SpendAnalyticsDashboard_16056925975720/Home?:apiInternalVersion=1.131.0&:disableUrlActionsPopups=n&navSrc=Opt&:embed=y&navType=0&:suppressDefaultEditBehavior=n&mobile=n&:toolbar=n&:hideEditButton=y&:hideEditInDesktopButton=n&:jsdebug=n&:apiExternalVersion=3.6.0&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/1-DesigningEffectiveDashboardsPublic/Intro?:language=en-US&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/Embedded_Analytics/Introduo?:language=en-US&:display_count=n&:origin=viz_share_link"
+
+
+
+    ];
+    // Array of Tableau Server URLs for dashboard or sheet navigation.
+
+    var viz,
+        vizLen = vizList.length,
+        vizCount = 0,
+        devType,
+        vHideTabs = true,
+        vHideToolbar = true;
+    var options = {
+        device: devType,
+    };
+
+
+    function mediaSizer() {
+        // Determines the correct viz layout according to screen sizes.
+        if (window.matchMedia("(max-width: 450px)").matches) {
+            //alert("I am a phone layout!");
+            devType = 'phone';
+            vWidth = 420;
+            vHeight = 2000;
+            launchViz(0);
+            vHeight = 1200;
+            launchViz(1);
+            vHeight = 2000;
+            //launchViz(3);
+            vHeight = 2000;
+           // launchViz(5);
+            vHeight = 1200;
+
+            launchViz(7);
+            vHeight = 2000;
+            launchViz(8);
+            launchViz(10);
+
+            //options.device = 'phone';
+        } else if (window.matchMedia("(max-width: 980px)").matches) {
+            //alert("I am a tablet layout!");
+            devType = 'tablet';
+            vWidth = 980;
+            //options.device = 'tablet';
+            console.log("devtype: " + devType)
+            console.log("launch0")
+            launchViz(0);
+            console.log("launch1")
+            launchViz(1);
+            console.log("launch2")
+
+          //  launchViz(2);
+            //launchViz(3);
+           // launchViz(4);
+
+            launchViz(6);
+
+            // Launches the viz again with the new sizing at the current index of vizList.
+        } else {
+            //alert("I am a desktop layout!");
+            devType = 'desktop';
+            vWidth = 1200;
+            vHeight = 800;
+            //options.device = 'desktop';
+            console.log("devtype: " + devType)
+            console.log("launch0")
+            launchViz(0);
+            console.log("launch1")
+            vHeight = 800;
+            launchViz(1);
+            vHeight = 1000;
+            console.log("launch2")
+
+            //launchViz(2);
+            console.log("launch3")
+            //launchViz(3);
+           // launchViz(4);
+            vHideToolbar = true;
+            vHideTabs = true;
+          //  launchViz(5);
+            vWidth = 1000;
+            launchViz(6);
+            vWidth = 1200;
+
+            vHideToolbar = false;
+            vHideTabs = false;
+            vHeight = 800;
+            launchViz(7);
+            launchViz(8);
+           // vHeight = 1000;
+            //launchViz(9);
+            vHeight = 800;
+            launchViz(10);
+            //vHeight = 1000;
+           // launchViz(11);
+            launchViz(12);
+            launchViz(13);
+
+            // Launches the viz again with the new sizing at the current index of vizList.
+        }
+
+    }
+
+
+    function launchViz(vizNav) {
+        // JS object targeting a div in the html document. (vizNav) will pass navigation values to move back and forth across vizList.
+        console.log("vizContainer" + vizNav)
+        console.log("devtype: " + devType)
+        var vizDiv = document.getElementById("vizContainer" + vizNav),
+            // Will embed the visualization on a div with id="VizContainer"
+            options = {
+                device: devType,
+                width: vWidth,
+                height: vHeight,
+                hideTabs: vHideTabs,
+                hideToolbar: vHideToolbar,
+                onFirstInteractive: function () {
+                    listenToMarksSelection();
+                }
+            };
+
+
+        var vizURL = vizList[vizNav];
+        // Dynamic URL returning the string from vizList at index = vizNav (viz to be displayed).
+
+        try {
+            // Initializes the viz from the array with desired options. 
+            viz = new tableau.Viz(vizDiv, vizURL, options);
+            if (!viz) throw 'viz not initialized'
+        }
+        catch (err) {
+            alert(err);
+        }
+        finally {
+            console.log('whatever')
+            console.count('initViz')
+        }
+
+    }
+
+</script>
+
+
+
+
+
+
+
+</head>
+
+<body class="mercados">
+    <div class="estruturaConteudo">
+        <!-- Estrutura do topo -->
+
+        <style>
+            .boxPoliticas {
+                position: fixed;
+                bottom: 10px;
+                background: rgba(0, 0, 0, 0.8);
+                z-index: 9999;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 1860px;
+                max-width: calc(100% - 40px);
+                border-radius: 5px;
+                box-shadow: 0 4px 0 rgb(0 0 0 / 30%);
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 15px 35px;
+                box-sizing: border-box;
+            }
+
+            .boxPoliticas p {
+                font: 400 13px/20px 'Open Sans';
+                color: #fff;
+                width: calc(100% - 130px);
+            }
+
+            .boxPoliticas p a {
+                text-decoration: underline;
+                color: #fff;
+                transition: all 0.3s ease;
+            }
+
+            .boxPoliticas p a:hover {
+                color: #a9c8f6;
+            }
+
+            .boxPoliticas a.btAceite {
+                font: 13px/20px 'Open Sans';
+                font-weight: bold;
+                color: #fff;
+                background: #2d3c52;
+                padding: 7px 24px;
+                box-shadow: 0 3px 0 #0e1d34;
+                border-radius: 5px;
+                transition: all 0.3s ease;
+                width: 110px;
+                box-sizing: border-box;
+                text-align: center
+            }
+
+            .boxPoliticas a.btAceite:hover {
+                filter: brightness(1.2);
+            }
+
+            ._320 .boxPoliticas {
+                flex-wrap: wrap
+            }
+
+            ._320 .boxPoliticas p {
+                width: 100%;
+                margin-bottom: 10px;
+                text-align: center;
+            }
+
+            ._320 .boxPoliticas a {
+                margin: 0 auto
+            }
+        </style>
+        <script>
+            $(window).load(function () {
+                $('.boxPoliticas a.btAceite').click(function (e) {
+                    e.preventDefault();
+                    $.ajax({
+                        url: 'politicasExe.php',
+                        type: 'POST',
+                        contentType: "application/json;charset=utf-8",
+                        success: function (data) { $('.boxPoliticas').fadeOut("slow"); }
+                    });
+                    return false;
+                });
+            });
+        </script>
+
+        <div class="estruturaTopo">
+            <header>
+                <div class="logo"><a href="pt/home"><img src="media/img/logo.png" alt=""></a></div>
+                <div class="topoConteudo">
+                    <h2>Há mais de <em>50 anos</em> desenvolvendo<br><span>produtos e serviços de qualidade.</span></h2>
+                    <div class="idiomas">
+                        <ul>
+                            <li><a href="pt/mercados" class="pt ativo"><span></span>PT</a> </li>
+                            <li><a href="en/mercados" class="en "><span></span>EN</a></li>
+                            <li><a href="es/mercados" class="es "><span></span>ES</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Menu de navegação -->
+                <div class="botaoMobile"><span></span><span></span><span></span><span></span><span></span></div>
+                <nav>
+                    <div class="menuNavegacao">
+                        <div class="conteudoMenu">
+                            <ul>
+                                <li><a href="pt/home">Home</a></li>
+                                <li class="efeitoTriangulo"><a href="#" class="menuP">Empresa</a>
+                                    <ul class="subMenu">
+                                        <li><a href="pt/empresa/historia">História</a></li>
+                                        <li><a href="pt/empresa/missao">Missão, Visão e Valores</a></li>
+                                        <li><a href="pt/representantes">Representantes</a></li>
+                                        <li class="efeitoTriangulo"><a class="menuP2" href="#">Governança
+                                                Corporativa</a>
+                                            <ul class="subMenu2">
+                                                <li><a href="pt/empresa/codigo-politicas">
+                                                        Código e Políticas</a></li>
+                                                <li><a href="pt/empresa/estrutura">Estrutura</a></li>
+                                            </ul>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                                <li><a href="pt/mercados">Mercados</a></li>
+                                <li class="efeitoTriangulo"><a href="#" class="menuP">Sustentabilidade</a>
+                                    <ul class="subMenu">
+                                        <li><a href="pt/sustentabilidade/comunidade">Comunidade</a></li>
+                                        <li><a href="pt/sustentabilidade/fundacao">Fundação Curimbaba</a></li>
+                                        <li><a href="pt/sustentabilidade/escoladefutebol">Escola de Futebol</a></li>
+                                    </ul>
+                                </li>
+                                <li class="efeitoTriangulo"><a href="#" class="menuP">Acesso Cliente </a>
+                                    <ul class="subMenu">
+                                        <li><a href="pt/acessoCliente/portalBoletos">Portal de Boletos</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="pt/trabalheconosco">Trabalhe Conosco</a></li>
+                                <li><a href="pt/canaldedenuncias">canal de ética</a></li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+        </div><!--estruturaTopo-->
+        <div class="clear"></div>
+        <div class="centro">
+            <h2 class="tituloInterno">Mercados</h2>
+            <div class="clear"></div>
+            <div class="itens">
+
+                <div class="item" id="abrasivos">
+                    <ul class="tituloCategoria">
+                        <li><img src="img/mercadosCategorias/categoriamercados2.jpg"></li>
+                        <li>
+                            <h3>Abrasivos</h3>
+                        </li>
+                    </ul>
+                    <ul class="empresas">
+                        <li class="imagem" style="min-height: 78px;"><img src="admimg/mercadosItens/empresaselfusa.jpg"
+                                alt=""></li>
+                        <li class="itensTexto ">
+                            <div class="lista">
+                                <ul>
+                                    <li>Óxido de Alumínio Marrom</li>
+                                    <li>
+                                        Óxido de Alumínio Branco</li>
+                                    <li>
+                                        Óxido de Alumínio Rosa</li>
+                                    <li>
+                                        Óxido de Alumínio Semi-friável</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="link" style="min-height: 78px;">
+                            <a href="http://www.elfusa.com.br/pt" target="_blank">ACESSAR MAIS INFORMAÇÕES</a>
+                        </li>
+                    </ul>
+                    <ul class="empresas">
+                        <li class="imagem" style="min-height: 53px;"><img
+                                src="admimg/mercadosItens/empresasmineracao.jpg" alt=""></li>
+                        <li class="itensTexto ">
+                            <div class="lista">
+                                <ul>
+                                    <li>Bauxitas Sinterizadas</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="link" style="min-height: 53px;">
+                            <a href="http://www.curimbaba.com.br/pt" target="_blank">ACESSAR MAIS INFORMAÇÕES</a>
+                        </li>
+                    </ul>
+                    <ul class="empresas">
+                        <li class="imagem" style="min-height: 78px;"><img src="admimg/mercadosItens/empresasusem.jpg"
+                                alt=""></li>
+                        <li class="itensTexto ">
+                            <div class="lista">
+                                <ul>
+                                    <li>Óxido de Alumínio Marrom</li>
+                                    <li>
+                                        Óxido de Alumínio Branco</li>
+                                    <li>
+                                        Óxido de Alumínio Rosa</li>
+                                    <li>
+                                        Óxido de Alumínio Semi-friável</li>
+                                    <li>
+                                        Carbeto de Silício Preto</li>
+                                    <li>
+                                        Carbeto de Silício Verde</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="link" style="min-height: 78px;">
+                            <a href="http://www.usminerals.com/" target="_blank">ACESSAR MAIS INFORMAÇÕES</a>
+                        </li>
+                    </ul>
+                    <ul class="empresas">
+                        <li class="imagem" style="min-height: 78px;"><img
+                                src="admimg/mercadosItens/empresaselectroabrasives.jpg" alt=""></li>
+                        <li class="itensTexto ">
+                            <div class="lista">
+                                <ul>
+                                    <li>Carbeto de Silício Preto</li>
+                                    <li>
+                                        Carbeto de Silício Verde</li>
+                                    <li>
+                                        Óxido de Alumínio Marrom</li>
+                                    <li>
+                                        Óxido de Alumínio Branco</li>
+                                    <li>
+                                        Óxido de Alumínio Rosa</li>
+                                    <li>
+                                        Óxido de Alumínio Semi-friável</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="link" style="min-height: 78px;">
+                            <a href="http://www.electroabrasives.com/" target="_blank">ACESSAR MAIS INFORMAÇÕES</a>
+                        </li>
+                    </ul>
+                    <ul class="empresas">
+                        <li class="imagem" style="min-height: 53px;"><img src="admimg/mercadosItens/empresassublime.jpg"
+                                alt=""></li>
+                        <li class="itensTexto ">
+                            <div class="lista">
+                                <ul>
+                                    <li>Carbetos de Silício Preto</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="link" style="min-height: 53px;">
+                            <a href="https://www.sublime-sic.com/" target="_blank">ACESSAR MAIS INFORMAÇÕES</a>
+                        </li>
+                    </ul>
+                </div><!--item-->
+
+                <div class="item" id="agronegocio">
+                    <ul class="tituloCategoria">
+                        <li><img src="img/mercadosCategorias/categoriamercados11.jpg"></li>
+                        <li>
+                            <h3>Agronegócio</h3>
+                        </li>
+                    </ul>
+                    <ul class="empresas">
+                        <li class="imagem" style="min-height: 78px;"><img src="admimg/mercadosItens/empresasyoorin.jpg"
+                                alt=""></li>
+                        <li class="itensTexto ">
+                            <div class="lista">
+                                <ul>
+                                    <li>Fertilizantes Termofosfatados</li>
+                                    <li>
+                                        Fertilizantes Potássicos</li>
+                                    <li>
+                                        Fertilizantes Foliares</li>
+                                    <li>
+                                        Corretivos de solo </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="link" style="min-height: 78px;">
+                            <a href="http://www.yoorin.com.br/pt" target="_blank">ACESSAR MAIS INFORMAÇÕES</a>
+                        </li>
+                    </ul>
+                    <ul class="empresas">
+                        <li class="imagem" style="min-height: 53px;"><img src="admimg/mercadosItens/empresastaruma.jpg"
+                                alt=""></li>
+                        <li class="itensTexto ">
+                            <div class="lista">
+                                <ul>
+                                    <li>Cavaco de madeira</li>
+                                    <li>
+                                        Eucalipto</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="link" style="min-height: 53px;">
+                            <a href="#" target="_blank">ACESSAR MAIS INFORMAÇÕES</a>
+                        </li>
+                    </ul>
+                    <ul class="empresas">
+                        <li class="imagem" style="min-height: 53px;"><img src="admimg/mercadosItens/empresasespigao.jpg"
+                                alt=""></li>
+                        <li class="itensTexto ">
+                            <div class="lista">
+                                <ul>
+                                    <li>Café</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="link" style="min-height: 53px;">
+                            <a href="#" target="_blank">ACESSAR MAIS INFORMAÇÕES</a>
+                        </li>
+                    </ul>
+                </div><!--item-->
+
+                <div class="item" id="construcao-civil">
+                    <ul class="tituloCategoria">
+                        <li><img src="img/mercadosCategorias/categoriamercados10.jpg"></li>
+                        <li>
+                            <h3>Construção Civil</h3>
+                        </li>
+                    </ul>
+                    <ul class="empresas">
+                        <li class="imagem" style="min-height: 53px;"><img src="admimg/mercadosItens/empresasbrita.jpg"
+                                alt=""></li>
+                        <li class="itensTexto ">
+                            <div class="lista">
+                                <ul>
+                                    <li>Pedra Brita</li>
+                                    <li>
+                                        Areia Ecológica</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="link" style="min-height: 53px;">
+                            <a href="#" target="_blank">ACESSAR MAIS INFORMAÇÕES</a>
+                        </li>
+                    </ul>
+                </div><!--item-->
+
+                <div class="item" id="fluxo-de-solda">
+                    <ul class="tituloCategoria">
+                        <li><img src="img/mercadosCategorias/categoriamercados3.jpg"></li>
+                        <li>
+                            <h3>Fluxo de Solda</h3>
+                        </li>
+                    </ul>
+                    <ul class="empresas">
+                        <li class="imagem" style="min-height: 53px;"><img
+                                src="admimg/mercadosItens/empresasmineracao.jpg" alt=""></li>
+                        <li class="itensTexto ">
+                            <div class="lista">
+                                <ul>
+                                    <li>Bauxitas Sinterizadas</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="link" style="min-height: 53px;">
+                            <a href="http://www.curimbaba.com.br/pt" target="_blank">ACESSAR MAIS INFORMAÇÕES</a>
+                        </li>
+                    </ul>
+                    <ul class="empresas">
+                        <li class="imagem" style="min-height: 53px;"><img src="admimg/mercadosItens/empresasusem.jpg"
+                                alt=""></li>
+                        <li class="itensTexto ">
+                            <div class="lista">
+                                <ul>
+                                    <li>Bauxitas Sinterizadas</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="link" style="min-height: 53px;">
+                            <a href="http://www.usminerals.com/" target="_blank">ACESSAR MAIS INFORMAÇÕES</a>
+                        </li>
+                    </ul>
+                    <ul class="empresas">
+                        <li class="imagem" style="min-height: 53px;"><img
+                                src="admimg/mercadosItens/empresaselectroabrasives.jpg" alt=""></li>
+                        <li class="itensTexto ">
+                            <div class="lista">
+                                <ul>
+                                    <li>Carbeto de Silício </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="link" style="min-height: 53px;">
+                            <a href="http://www.electroabrasives.com/" target="_blank">ACESSAR MAIS INFORMAÇÕES</a>
+                        </li>
+                    </ul>
+                </div><!--item-->
+
+                <div class="item" id="fundicao">
+                    <ul class="tituloCategoria">
+                        <li><img src="img/mercadosCategorias/categoriamercados5.jpg"></li>
+                        <li>
+                            <h3>Fundição</h3>
+                        </li>
+                    </ul>
+                    <ul class="empresas">
+                        <li class="imagem" style="min-height: 66px;"><img
+                                src="admimg/mercadosItens/empresasmineracao.jpg" alt=""></li>
+                        <li class="itensTexto ">
+                            <div class="lista">
+                                <ul>
+                                    <li>Areia cerâmica de fundição a base de bauxita</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="link" style="min-height: 66px;">
+                            <a href="http://www.curimbaba.com.br/pt" target="_blank">ACESSAR MAIS INFORMAÇÕES</a>
+                        </li>
+                    </ul>
+                    <ul class="empresas">
+                        <li class="imagem" style="min-height: 66px;"><img
+                                src="admimg/mercadosItens/empresassintexna.jpg" alt=""></li>
+                        <li class="itensTexto ">
+                            <div class="lista">
+                                <ul>
+                                    <li>Areia cerâmica de fundição a base de bauxita</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="link" style="min-height: 66px;">
+                            <a href="http://www.sintexminerals.com/" target="_blank">ACESSAR MAIS INFORMAÇÕES</a>
+                        </li>
+                    </ul>
+                    <ul class="empresas">
+                        <li class="imagem" style="min-height: 53px;"><img
+                                src="admimg/mercadosItens/empresaselectroabrasives.jpg" alt=""></li>
+                        <li class="itensTexto ">
+                            <div class="lista">
+                                <ul>
+                                    <li>Carbeto de Silício Metalúrgico</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="link" style="min-height: 53px;">
+                            <a href="http://www.electroabrasives.com/" target="_blank">ACESSAR MAIS INFORMAÇÕES</a>
+                        </li>
+                    </ul>
+                    <ul class="empresas">
+                        <li class="imagem" style="min-height: 53px;"><img src="admimg/mercadosItens/empresassublime.jpg"
+                                alt=""></li>
+                        <li class="itensTexto ">
+                            <div class="lista">
+                                <ul>
+                                    <li>Carbeto de Silício Metalúrgico</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="link" style="min-height: 53px;">
+                            <a href="https://www.sublime-sic.com/" target="_blank">ACESSAR MAIS INFORMAÇÕES</a>
+                        </li>
+                    </ul>
+                </div><!--item-->
+
+                <div class="item" id="microfusao">
+                    <ul class="tituloCategoria">
+                        <li><img src="img/mercadosCategorias/categoriamercados4.jpg"></li>
+                        <li>
+                            <h3>Microfusão</h3>
+                        </li>
+                    </ul>
+                    <ul class="empresas">
+                        <li class="imagem" style="min-height: 53px;"><img
+                                src="admimg/mercadosItens/empresasmineracao.jpg" alt=""></li>
+                        <li class="itensTexto ">
+                            <div class="lista">
+                                <ul>
+                                    <li>Argilas Sinterizadas</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="link" style="min-height: 53px;">
+                            <a href="http://www.curimbaba.com.br/pt" target="_blank">ACESSAR MAIS INFORMAÇÕES</a>
+                        </li>
+                    </ul>
+                    <ul class="empresas">
+                        <li class="imagem" style="min-height: 53px;"><img src="admimg/mercadosItens/empresaselfusa.jpg"
+                                alt=""></li>
+                        <li class="itensTexto ">
+                            <div class="lista">
+                                <ul>
+                                    <li>Mulita</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="link" style="min-height: 53px;">
+                            <a href="http://www.elfusa.com.br/pt" target="_blank">ACESSAR MAIS INFORMAÇÕES</a>
+                        </li>
+                    </ul>
+                    <ul class="empresas">
+                        <li class="imagem" style="min-height: 53px;"><img src="admimg/mercadosItens/empresasusem.jpg"
+                                alt=""></li>
+                        <li class="itensTexto ">
+                            <div class="lista">
+                                <ul>
+                                    <li>Argilas Sinterizadas</li>
+                                    <li>
+                                        Mulitas</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="link" style="min-height: 53px;">
+                            <a href="http://www.usminerals.com/" target="_blank">ACESSAR MAIS INFORMAÇÕES</a>
+                        </li>
+                    </ul>
+                </div><!--item-->
+
+                <div class="item" id="oleo-e-gas">
+                    <ul class="tituloCategoria">
+                        <li><img src="img/mercadosCategorias/categoriamercados8.jpg"></li>
+                        <li>
+                            <h3>Óleo e Gás</h3>
+                        </li>
+                    </ul>
+                    <ul class="empresas">
+                        <li class="imagem" style="min-height: 53px;"><img
+                                src="admimg/mercadosItens/empresasmineracao.jpg" alt=""></li>
+                        <li class="itensTexto ">
+                            <div class="lista">
+                                <ul>
+                                    <li>Propantes cerâmicos </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="link" style="min-height: 53px;">
+                            <a href="http://www.curimbaba.com.br/pt" target="_blank">ACESSAR MAIS INFORMAÇÕES</a>
+                        </li>
+                    </ul>
+                    <ul class="empresas">
+                        <li class="imagem" style="min-height: 53px;"><img
+                                src="admimg/mercadosItens/empresassintexna.jpg" alt=""></li>
+                        <li class="itensTexto ">
+                            <div class="lista">
+                                <ul>
+                                    <li>Propantes cerâmicos </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="link" style="min-height: 53px;">
+                            <a href="http://www.sintexminerals.com/" target="_blank">ACESSAR MAIS INFORMAÇÕES</a>
+                        </li>
+                    </ul>
+                </div><!--item-->
+
+                <div class="item" id="refratarios-e-ceramicas">
+                    <ul class="tituloCategoria">
+                        <li><img src="img/mercadosCategorias/testecategoria.jpg"></li>
+                        <li>
+                            <h3>Refratários e Cerâmicas</h3>
+                        </li>
+                    </ul>
+                    <ul class="empresas">
+                        <li class="imagem" style="min-height: 103px;"><img src="admimg/mercadosItens/empresaselfusa.jpg"
+                                alt=""></li>
+                        <li class="itensTexto ">
+                            <div class="lista">
+                                <ul>
+                                    <li>Óxido de Alumínio Marrom</li>
+                                    <li>
+                                        Óxido de Alumínio Branco</li>
+                                    <li>
+                                        Mulita</li>
+                                    <li>
+                                        Cimento de Aluminato de Cálcio</li>
+                                    <li>
+                                        Ferro Silício</li>
+                                    <li>
+                                        Espinélio de Alumina Magnésio</li>
+                                    <li>
+                                        Espinélio de Magnésia Cromo</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="link" style="min-height: 103px;">
+                            <a href="http://www.elfusa.com.br/pt" target="_blank">ACESSAR MAIS INFORMAÇÕES</a>
+                        </li>
+                    </ul>
+                    <ul class="empresas">
+                        <li class="imagem" style="min-height: 78px;"><img
+                                src="admimg/mercadosItens/empresasmineracao.jpg" alt=""></li>
+                        <li class="itensTexto ">
+                            <div class="lista">
+                                <ul>
+                                    <li>Argilas</li>
+                                    <li>
+                                        Chamote</li>
+                                    <li>
+                                        Cimento Sinterizado</li>
+                                    <li>
+                                        Bauxita Refratária</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="link" style="min-height: 78px;">
+                            <a href="http://www.curimbaba.com.br/pt" target="_blank">ACESSAR MAIS INFORMAÇÕES</a>
+                        </li>
+                    </ul>
+                    <ul class="empresas">
+                        <li class="imagem" style="min-height: 128px;"><img src="admimg/mercadosItens/empresasusem.jpg"
+                                alt=""></li>
+                        <li class="itensTexto ">
+                            <div class="lista">
+                                <ul>
+                                    <li>Óxido de Alumínio Marrom</li>
+                                    <li>
+                                        Óxido de Alumínio Branco</li>
+                                    <li>
+                                        Mulita</li>
+                                    <li>
+                                        Cimento de Aluminato de Cálcio</li>
+                                    <li>
+                                        Ferro Silício</li>
+                                    <li>
+                                        Espinélio de Alumina Magnésio</li>
+                                    <li>
+                                        Carbeto de Silício</li>
+                                    <li>
+                                        Chamote</li>
+                                    <li>
+                                        Cimento Sinterizado</li>
+                                    <li>
+                                        Bauxita Refratária</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="link" style="min-height: 128px;">
+                            <a href="http://www.usminerals.com/" target="_blank">ACESSAR MAIS INFORMAÇÕES</a>
+                        </li>
+                    </ul>
+                    <ul class="empresas">
+                        <li class="imagem" style="min-height: 78px;"><img
+                                src="admimg/mercadosItens/empresaselectroabrasives.jpg" alt=""></li>
+                        <li class="itensTexto ">
+                            <div class="lista">
+                                <ul>
+                                    <li>Carbetos de Silício Preto</li>
+                                    <li>
+                                        Carbeto de Silício Verde</li>
+                                    <li>
+                                        Óxido de Alumínio Marrom</li>
+                                    <li>
+                                        Óxido de Alumínio Branco</li>
+                                    <li>
+                                        Carbeto de Boro</li>
+                                    <li>
+                                        Aluminas Calcinadas</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="link" style="min-height: 78px;">
+                            <a href="http://www.electroabrasives.com/" target="_blank">ACESSAR MAIS INFORMAÇÕES</a>
+                        </li>
+                    </ul>
+                </div><!--item-->
+
+                <div class="item" id="transporte-e-logistica">
+                    <ul class="tituloCategoria">
+                        <li><img src="img/mercadosCategorias/categoriamercados9.jpg"></li>
+                        <li>
+                            <h3>Transporte e Logística</h3>
+                        </li>
+                    </ul>
+                    <ul class="empresas">
+                        <li class="imagem" style="min-height: 53px;"><img src="admimg/mercadosItens/empresasalcace.jpg"
+                                alt=""></li>
+                        <li class="itensTexto ">
+                            <div class="lista">
+                                <ul>
+                                    <li>Transporte</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="link" style="min-height: 53px;">
+                            <a href="http://www.alcace.com.br/" target="_blank">ACESSAR MAIS INFORMAÇÕES</a>
+                        </li>
+                    </ul>
+                </div><!--item-->
+
+                <div class="item" id="tratamento-de-oleo">
+                    <ul class="tituloCategoria">
+                        <li><img src="img/mercadosCategorias/categoriamercados6.jpg"></li>
+                        <li>
+                            <h3>Tratamento de Óleo</h3>
+                        </li>
+                    </ul>
+                    <ul class="empresas">
+                        <li class="imagem" style="min-height: 53px;"><img
+                                src="admimg/mercadosItens/empresasmineracao.jpg" alt=""></li>
+                        <li class="itensTexto ">
+                            <div class="lista">
+                                <ul>
+                                    <li>Bauxita Calcinada Termoativada</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="link" style="min-height: 53px;">
+                            <a href="http://www.curimbaba.com.br/pt" target="_blank">ACESSAR MAIS INFORMAÇÕES</a>
+                        </li>
+                    </ul>
+                </div><!--item-->
+
+                <div class="item" id="tratamento-de-superficies">
+                    <ul class="tituloCategoria">
+                        <li><img src="img/mercadosCategorias/categoriamercados7.jpg"></li>
+                        <li>
+                            <h3>Tratamento de Superfícies</h3>
+                        </li>
+                    </ul>
+                    <ul class="empresas">
+                        <li class="imagem" style="min-height: 53px;"><img src="admimg/mercadosItens/empresasolga.jpg"
+                                alt=""></li>
+                        <li class="itensTexto ">
+                            <div class="lista">
+                                <ul>
+                                    <li>Massas líquidas para polir</li>
+                                    <li>
+                                        Massas sólidas para lubrificação</li>
+                                    <li>
+                                        Massas sólidas para polir</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="link" style="min-height: 53px;">
+                            <a href="http://www.olga-sa.com.br/" target="_blank">ACESSAR MAIS INFORMAÇÕES</a>
+                        </li>
+                    </ul>
+                </div><!--item-->
+            </div><!--itens-->
+            <div class="clear"></div>
+        </div><!--centro-->
+
+
+
+
+        
+    </div><!--estruturaConteudo-->
+
+    
+
+
+    <footer>
+        <div class="rodape">
+            <p>Copyright © 2024 | Grupo Curimbaba | Todos os direitos reservados. | <a
+                    href="pt/politicadeprivacidade">Política de Privacidade</a></p>
+        </div>
+
+
+
+        
+    <div style="text-align: center;">
+        <div style="display: inline-block;">
+            <p> - </p>
+            <p> Este é um micro-site criado somente para ilustrar o que seria o Tableau embedded no seu site.
+            </p>
+            <p>Somente alguns exemplos para inspira-los na avaliação do Tableau e para conhecermos melhor o seu
+                use case</p>
+            <p> Todos os dashboards apresentados contem dados ficticios para fins educacionais </p>
+            <div id="vizContainer0"></div>
+        </div>
+    </div>
+
+
+
+
+
+    <div style="text-align: center;">
+        <div style="display: inline-block;">
+            <p> - </p>
+            <p> Abaixo um exemplo de dashboard para acompanhamento por marcas.</p>
+            <div id="vizContainer3"></div>
+        </div>
+    </div>
+
+    <div style="text-align: center;">
+        <div style="display: inline-block;">
+            <p> - </p>
+            <p> Abaixo um dashboard que acompanha despesas de recursos humanos. Voce pode encontrar esse
+                dashboard nos Accelerators Tableau</p>
+            <p>Os aceleradores do Tableau são painéis pré-criados projetados para ajudar você a obter um impulso
+                inicial na análise de dados.</p>
+            <p>Adaptados a setores específicos e aplicativos corporativos, os Aceleradores são criados com dados
+                de amostra que você pode trocar por seus próprios dados,</p>
+            <p> permitindo que você descubra insights com configuração mínima.</p>
+            <div id="vizContainer1"></div>
+        </div>
+    </div>
+<!--     <div style="text-align: center;">
+        <div style="display: inline-block;">
+            <p> - </p>
+            <p> Abaixo um exemplo da comunidade Tableau sobre vendas de carros em UK</p>
+
+            <div id="vizContainer2"></div>
+        </div>
+    </div> -->
+
+<!--     <div style="text-align: center;">
+        <div style="display: inline-block;">
+            <p> - </p>
+            <p> Abaixo um dashboard de um exemplo de template para que todos os usuários tenham facilidade para
+                criar novos dashs e seguindo os padrões da empresa</p>
+
+            <div id="vizContainer4"></div>
+        </div>
+    </div> -->
+<!--     <div style="text-align: center;">
+        <div style="display: inline-block;">
+            <p> - </p>
+            <p> Abaixo um dashboard usando o template ilustrado no dash anterior</p>
+
+            <div id="vizContainer5"></div>
+        </div>
+    </div> -->
+    <div style="text-align: center;">
+        <div style="display: inline-block;">
+            <p> - </p>
+            <p> Abaixo um dashboard mais lúdico disponível no Tableau Public. Voce pode acompanhar a animação
+                clicando no triangulo no canto inferior direito</p>
+            <p>O Tableau Public é uma plataforma gratuita para explorar, criar e compartilhar publicamente
+                visualizações de dados online. </p>
+            <p> Com o maior repositório de visualizações de dados do mundo para aprender, o Tableau Public
+                facilita o desenvolvimento de habilidades de dados.</p>
+
+            <div id="vizContainer6"></div>
+        </div>
+    </div>
+    <div style="text-align: center;">
+        <div style="display: inline-block;">
+            <p> - </p>
+            <p> Abaixo um dashboard que acompanha a distribuição de chamados de reclamações pelas empresas/marcas.</p>
+            
+            <div id="vizContainer7"></div>
+        </div>
+    </div>
+    <div style="text-align: center;">
+        <div style="display: inline-block;">
+            <p> - </p>
+            <p> Avalie os defeitos nas peças do carro e na linha de produção.
+            <p> -- </p>
+            <div id="vizContainer8"></div>
+        </div>
+    </div>
+<!--     <div style="text-align: center;">
+        <div style="display: inline-block;">
+
+            <p> - </p>
+            <p> Abaixo um dashboard para ánalise de facebook ads. Também disponível nos Accelerators Tableau</p>
+            <p>Avalie e melhore o desempenho de suas campanhas de marketing com o Facebook Ads.
+                Identifique as campanhas mais impactantes.</p>
+            <p> Mergulhe fundo na eficiência da campanha em: Reconhecimento, Engajamento, Conversão.</p>
+            <p>Melhorar o retorno sobre o investimento.
+                Audite os resultados da otimização da campanha ao longo do tempo.</p>
+            <div id="vizContainer9"></div>
+        </div>
+    </div> -->
+    <div style="text-align: center;">
+        <div style="display: inline-block;">
+            <p> - </p>
+            <p> Abaixo um dashboard para acompanhamento dos Vendedores para Benchmark</p>
+            <p>Permite um benchmark para entenderem como estão performando comparado aos pares ou outros
+                parceiros do mesmo mercado</p>
+            <p> - - </p>
+            <div id="vizContainer10"></div>
+        </div>
+    </div>
+<!--     <div style="text-align: center;">
+        <div style="display: inline-block;">
+            <p> - </p>
+            <p> Abaixo um dashboard para acompanhamento de contratos. Também disponível nos Accelerators Tableau
+            </p>
+            <p>Avalie e monitore seu volume de gastos
+                Entenda melhor sua alocação de gastos em categorias de gastos e fornecedores</p>
+            <p>Monitore e melhore os KPIs</p>
+            <div id="vizContainer11"></div>
+        </div>
+    </div> -->
+    <div style="text-align: center;">
+        <div style="display: inline-block;">
+            <p>-</p>
+            <p> O dashboard a seguir é um exemplo de webinar que utilizamos no inicio da jornada para criação de
+                cultura de dados. </p>
+            <p>Tem muita informação relevante para que voce possa conhecer um pouco mais sobre a plataforma
+                Tableau e como te ajudamos a construir cultura de dados/>
+            <p>-</p>
+            <div id="vizContainer12"></div>
+        </div>
+    </div>
+    <div style="text-align: center;">
+        <div style="display: inline-block;">
+            <p>-</p>
+            <p> O dashboard a seguir é um exemplo de webinar sobre embedded. </p>
+            <p>Tem muita informação relevante para que voce possa conhecer um pouco mais sobre embedded</p>
+            <p>-</p>
+            <div id="vizContainer13"></div>
+        </div>
+    </div>
+</div>
+
+
+    </footer><!--Fim Rodapé -->
+    <script>'undefined' === typeof _trfq || (window._trfq = []); 'undefined' === typeof _trfd && (window._trfd = []), _trfd.push({ 'tccl.baseHost': 'secureserver.net' }, { 'ap': 'cpsh-oh' }, { 'server': 'p3plzcpnl506450' }, { 'dcenter': 'p3' }, { 'cp_id': '3764755' }, { 'cp_cl': '8' }) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script>
+    <script src="https://img1.wsimg.com/traffic-assets/js/tccl.min.js"></script>
+</body>
+
+</html>
